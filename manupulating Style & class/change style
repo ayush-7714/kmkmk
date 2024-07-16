@@ -1,0 +1,7 @@
+how to change css of an element using the Js?
+question - why to change css of an element using the Js?
+
+var h= document.querySelector(h1)
+h1.style.color = "red"
+h1.style.background = "red"
+h1.style.fontSize = "10px"

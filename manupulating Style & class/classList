@@ -1,0 +1,30 @@
+we have seen in change style that how we can change the style of the element using the style.property, now we will use ClassList instead to add css to our H1 element
+
+******************************
+In style.property case :
+
+var h1  = document.queryselector('h1');
+h1.style.color = '#000000';
+h1.style.background = '#000000';
+h1.style.border = '#000000';
+
+******************************
+
+
+in style.prproperty we will have seen in change style , but it is long process instead we will make a css class and then call it into the JS
+
+******************************
+In ClassList Property:
+
+var h1 = document.queryselector('h1');
+h1.ClassList.add= 'headingCss';
+
+in css file:
+
+.headingCss{
+    color: '#000000
+    background: #000000
+    border: #000000
+}
+
+******************************

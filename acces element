@@ -1,0 +1,26 @@
+USSE         YE KARDO      YEH HONE PAR 
+SELECTION    CHANGE        EVENT
+
+document.querySelector()
+
+how to access the element ?
+    document.getElementById()
+    document.getElementByClassName()
+    document.getElementBytagName()
+
+    this can do all things you need
+    document.querySelector('')
+
+   // for id 
+        var abcd = document.querySelector('#abcd');
+   // for class
+        var abcd = document.querySelector('.abcd');
+   // for tag 
+        var abcd = document.querySelector('h1');
+
+
+
+        usse ye kardo yeh hone par
+
+
+        

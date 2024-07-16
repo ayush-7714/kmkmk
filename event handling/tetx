@@ -1,0 +1,18 @@
+Event Listener JavaScript mein ek aisi functionality hai jo kisi event ko sunta hai aur jab wo event hota hai tab ek function ko execute karta hai. Yeh easy aur common method hai JavaScript mein events ko handle karne ka.
+
+for example
+var btn = document.queryselector('button')
+btn.addEventListener(event, callback(){})
+
+******************************************
+var btn = document.queryselector('button')
+btn.addEventListener(click, function(){
+    alert()
+})
+
+*****************************************
+var btn = document.queryselector('button')
+btn.addEventListener(click, function(){
+    btn.textContent="starting"
+    btn.style.background="red"
+})

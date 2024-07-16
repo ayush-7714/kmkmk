@@ -1,0 +1,22 @@
+createElement()
+appendChild()	
+removeChild()
+
+******************************
+
+create element()
+is used to create any html element using the javascript 
+for example
+
+var h1 = document.createElement('h1')
+h1.textContent="Hello"
+h1.classList.add("headingCss")
+
+appendChild()
+is used to join the elements to the body of thw html
+for example
+documement.queryselector("body").appendChild(h1)
+
+removeChild()
+is use to remove the element using the javascript
+document.querySelector("body").remove(h1)
